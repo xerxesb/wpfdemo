@@ -1,0 +1,9 @@
+﻿<Window x:Class="PresenterCommands.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="300" Width="300">
+    <StackPanel>
+        <Button Name="CookDinner" Command="{Binding DinnerCommand}" CommandParameter="Some value from the UI" Content="Cook Dinner"></Button>
+        <Button Name="HookUpEvent" Click="HookUpToPresenter" Content="Hook Up Event"></Button>
+    </StackPanel>
+</Window>

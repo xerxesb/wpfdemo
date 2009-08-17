@@ -1,0 +1,81 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml" caret="653" fromTop="13" />
+      <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml.cs" caret="568" fromTop="20" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml" caret="241" fromTop="5" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="488" fromTop="17" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="360" fromTop="17" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerModel.xaml.cs" caret="66" fromTop="4" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresenter.xaml.cs" caret="183" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml" caret="655" fromTop="7" />
+      <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml" caret="618" fromTop="9" />
+      <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml" caret="395" fromTop="7" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="354" fromTop="24" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="590" fromTop="29" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerModel.xaml.cs" caret="154" fromTop="8" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="122" fromTop="4" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresenter.xaml.cs" caret="479" fromTop="16" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="21" fromTop="0" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="488" fromTop="17" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="122" fromTop="5" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="582" fromTop="18" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="217" fromTop="9" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresenter.xaml.cs" caret="276" fromTop="11" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="361" fromTop="17" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml" caret="309" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Button" priority="0" />
+      <Item value="StackPanel" priority="0" />
+      <Item value="Vertical" priority="0" />
+      <Item value="DockPanel" priority="0" />
+      <Item value="ToolBar" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="TextBox" priority="0" />
+      <Item value="Cut" priority="0" />
+      <Item value="MessageBox" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.StackPanel">
+      <Item value="FlowDirection" priority="0" />
+      <Item value="Orientation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ToolBar">
+      <Item value="DockPanel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.DockPanel">
+      <Item value="Dock" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="Command" priority="1" />
+      <Item value="ImageSource" priority="0" />
+      <Item value="Binding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Input.ApplicationCommands">
+      <Item value="Cut" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PresenterCommands.Window1">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

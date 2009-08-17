@@ -1,0 +1,12 @@
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\ResolveAssemblyReference.cache
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\App.g.cs
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands_MarkupCompile.cache
+d:\source\dotnet\WPFDemo\PresenterCommands\bin\Debug\PresenterCommands.exe
+d:\source\dotnet\WPFDemo\PresenterCommands\bin\Debug\PresenterCommands.pdb
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\Window1.baml
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\Window1.g.cs
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.g.resources
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.Properties.Resources.resources
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.csproj.GenerateResource.Cache
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.exe
+d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.pdb

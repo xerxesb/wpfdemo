@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCommand", "WPFDemo\BasicCommand.csproj", "{A9D739CB-18AB-4507-8A67-9B6395E0A20E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresenterCommands", "PresenterCommands\PresenterCommands.csproj", "{0399E526-013E-467D-902A-5A48CC35097B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9D739CB-18AB-4507-8A67-9B6395E0A20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D739CB-18AB-4507-8A67-9B6395E0A20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D739CB-18AB-4507-8A67-9B6395E0A20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D739CB-18AB-4507-8A67-9B6395E0A20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0399E526-013E-467D-902A-5A48CC35097B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0399E526-013E-467D-902A-5A48CC35097B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0399E526-013E-467D-902A-5A48CC35097B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0399E526-013E-467D-902A-5A48CC35097B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
