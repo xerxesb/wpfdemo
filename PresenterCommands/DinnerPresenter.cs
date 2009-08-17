@@ -18,9 +18,9 @@ namespace PresenterCommands
             presentation_model.DinnerCommand.CanEatDinner += SomeMethodToExecuteWhenWeCanEatDinner_ThisChangesTheStateOfTheCommand;
         }
 
-        void SomeMethodToExecuteWhenWeEatDinner_ThisWouldIdeallyNotBeOnThePresenter(object sender, EventArgs e)
+        void SomeMethodToExecuteWhenWeEatDinner_ThisWouldIdeallyNotBeOnThePresenter(string message)
         {
-            MessageBox.Show("Eating dinner: ");
+            MessageBox.Show("Eating dinner: " + message);
         }
 
         bool SomeMethodToExecuteWhenWeCanEatDinner_ThisChangesTheStateOfTheCommand()

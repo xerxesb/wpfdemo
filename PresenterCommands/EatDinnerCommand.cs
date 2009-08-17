@@ -7,7 +7,7 @@ namespace PresenterCommands
     {
         void ICommand.Execute(object parameter)
         {
-            OnEatDinner();
+            OnEatDinner((string)parameter);
         }
 
         bool ICommand.CanExecute(object parameter)
@@ -19,13 +19,13 @@ namespace PresenterCommands
             return _canExecute;
         }
 
-        void OnEatDinner()
+        void OnEatDinner(string message)
         {
             var evt = EatDinner;
-            if (evt != null) EatDinner(this, EventArgs.Empty);
+            if (evt != null) EatDinner(message);
         }
 
-        public event EventHandler EatDinner;
+        public event Action<string> EatDinner;
         public event Func<bool> CanEatDinner
         {
             add 
