@@ -3,46 +3,46 @@ using System.Windows.Input;
 
 namespace PresenterCommands
 {
-    public class EatDinnerCommand : ICommand
+    public class ParameterisedCommand<T> : ICommand
     {
+        Func<bool> _canExecuteCommand = () => false;
+        bool _canExecute;
+
         void ICommand.Execute(object parameter)
         {
-            OnEatDinner((string)parameter);
+            OnExecuteCommand((T)parameter);
+        }
+
+        private void OnExecuteCommand(T arg)
+        {
+            var evt = ExecuteCommand;
+            if (evt != null) ExecuteCommand(arg);
         }
 
         bool ICommand.CanExecute(object parameter)
         {
-            foreach (Func<bool> target in _canEatDinner.GetInvocationList())
+            foreach (Func<bool> target in _canExecuteCommand.GetInvocationList())
             {
                 _canExecute = _canExecute || target();
             }
             return _canExecute;
         }
 
-        void OnEatDinner(string message)
-        {
-            var evt = EatDinner;
-            if (evt != null) EatDinner(message);
-        }
-
-        public event Action<string> EatDinner;
-        public event Func<bool> CanEatDinner
+        public event Action<T> ExecuteCommand;
+        public event Func<bool> CanExecuteCommand
         {
             add 
             { 
-                _canEatDinner += value;
+                _canExecuteCommand += value;
                 CanExecuteChanged(this, EventArgs.Empty);
             }
             remove 
             {
-                _canEatDinner -= value;
+                _canExecuteCommand -= value;
                 CanExecuteChanged(this, EventArgs.Empty);
             }
         }
 
         public event EventHandler CanExecuteChanged;
-
-        Func<bool> _canEatDinner = () => false;
-        bool _canExecute;
     }
 }

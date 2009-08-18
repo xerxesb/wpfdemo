@@ -15,9 +15,9 @@
       <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml.cs" caret="568" fromTop="20" />
       <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml" caret="241" fromTop="5" />
       <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="488" fromTop="17" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="360" fromTop="17" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerModel.xaml.cs" caret="66" fromTop="4" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresenter.xaml.cs" caret="183" fromTop="9" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresenter.cs" caret="405" fromTop="16" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresentationModel.cs" caret="498" fromTop="15" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:EatDinnerCommand.cs" caret="763" fromTop="25" />
     </RecentFiles>
     <RecentEdits>
       <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml" caret="655" fromTop="7" />
@@ -25,17 +25,14 @@
       <File id="A9D739CB-18AB-4507-8A67-9B6395E0A20E/f:Window1.xaml" caret="395" fromTop="7" />
       <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="354" fromTop="24" />
       <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="590" fromTop="29" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerModel.xaml.cs" caret="154" fromTop="8" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="122" fromTop="4" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresenter.xaml.cs" caret="479" fromTop="16" />
       <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="21" fromTop="0" />
       <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml.cs" caret="488" fromTop="17" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="122" fromTop="5" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="582" fromTop="18" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="217" fromTop="9" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresenter.xaml.cs" caret="276" fromTop="11" />
-      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:StringDelegateCommand.xaml.cs" caret="361" fromTop="17" />
       <File id="0399E526-013E-467D-902A-5A48CC35097B/f:Window1.xaml" caret="309" fromTop="5" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:EatDinnerCommand.cs" caret="116" fromTop="5" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:EatDinnerCommand.cs" caret="388" fromTop="15" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresentationModel.cs" caret="441" fromTop="11" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:DinnerPresentationModel.cs" caret="498" fromTop="15" />
+      <File id="0399E526-013E-467D-902A-5A48CC35097B/f:EatDinnerCommand.cs" caret="720" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -55,6 +52,10 @@
       <Item value="TextBox" priority="0" />
       <Item value="Cut" priority="0" />
       <Item value="MessageBox" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="GenericTypedCommand" priority="0" />
+      <Item value="string" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Windows.Controls.StackPanel">
       <Item value="FlowDirection" priority="0" />

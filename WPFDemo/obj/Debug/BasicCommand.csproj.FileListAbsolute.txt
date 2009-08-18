@@ -10,3 +10,15 @@ d:\source\dotnet\WPFDemo\WPFDemo\obj\Debug\WPFDemo.Properties.Resources.resource
 d:\source\dotnet\WPFDemo\WPFDemo\obj\Debug\BasicCommand.csproj.GenerateResource.Cache
 d:\source\dotnet\WPFDemo\WPFDemo\obj\Debug\WPFDemo.exe
 d:\source\dotnet\WPFDemo\WPFDemo\obj\Debug\WPFDemo.pdb
+e:\Source\wpfdemo\WPFDemo\obj\Debug\WPFDemo.exe
+e:\Source\wpfdemo\WPFDemo\obj\Debug\WPFDemo.pdb
+e:\Source\wpfdemo\WPFDemo\bin\Debug\WPFDemo.exe
+e:\Source\wpfdemo\WPFDemo\bin\Debug\WPFDemo.pdb
+e:\Source\wpfdemo\WPFDemo\obj\Debug\ResolveAssemblyReference.cache
+e:\Source\wpfdemo\WPFDemo\obj\Debug\Window1.baml
+e:\Source\wpfdemo\WPFDemo\obj\Debug\Window1.g.cs
+e:\Source\wpfdemo\WPFDemo\obj\Debug\App.g.cs
+e:\Source\wpfdemo\WPFDemo\obj\Debug\WPFDemo_MarkupCompile.cache
+e:\Source\wpfdemo\WPFDemo\obj\Debug\WPFDemo.g.resources
+e:\Source\wpfdemo\WPFDemo\obj\Debug\WPFDemo.Properties.Resources.resources
+e:\Source\wpfdemo\WPFDemo\obj\Debug\BasicCommand.csproj.GenerateResource.Cache

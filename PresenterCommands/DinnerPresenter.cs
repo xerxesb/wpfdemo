@@ -14,8 +14,8 @@ namespace PresenterCommands
 
         public void HookupHandlers()
         {
-            presentation_model.DinnerCommand.EatDinner += SomeMethodToExecuteWhenWeEatDinner_ThisWouldIdeallyNotBeOnThePresenter;
-            presentation_model.DinnerCommand.CanEatDinner += SomeMethodToExecuteWhenWeCanEatDinner_ThisChangesTheStateOfTheCommand;
+            presentation_model.DinnerCommand.ExecuteCommand += SomeMethodToExecuteWhenWeEatDinner_ThisWouldIdeallyNotBeOnThePresenter;
+            presentation_model.DinnerCommand.CanExecuteCommand += SomeMethodToExecuteWhenWeCanEatDinner_ThisChangesTheStateOfTheCommand;
         }
 
         void SomeMethodToExecuteWhenWeEatDinner_ThisWouldIdeallyNotBeOnThePresenter(string message)

@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Title="Window1" Height="300" Width="300">
     <StackPanel>
-        <Button Name="CookDinner" Command="{Binding DinnerCommand}" CommandParameter="Some value from the UI" Content="Cook Dinner"></Button>
+        <Button Name="CookDinner" Command="{Binding DinnerCommand}" Content="Cook Dinner"></Button> <!-- CommandParameter="Some value from the UI"  -->
         <Button Name="HookUpEvent" Click="HookUpToPresenter" Content="Hook Up Event"></Button>
     </StackPanel>
 </Window>

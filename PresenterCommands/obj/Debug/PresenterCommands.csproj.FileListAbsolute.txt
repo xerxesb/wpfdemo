@@ -10,3 +10,15 @@ d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.Propertie
 d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.csproj.GenerateResource.Cache
 d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.exe
 d:\source\dotnet\WPFDemo\PresenterCommands\obj\Debug\PresenterCommands.pdb
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\PresenterCommands.exe
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\PresenterCommands.pdb
+e:\Source\wpfdemo\PresenterCommands\bin\Debug\PresenterCommands.exe
+e:\Source\wpfdemo\PresenterCommands\bin\Debug\PresenterCommands.pdb
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\ResolveAssemblyReference.cache
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\Window1.baml
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\Window1.g.cs
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\App.g.cs
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\PresenterCommands_MarkupCompile.cache
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\PresenterCommands.g.resources
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\PresenterCommands.Properties.Resources.resources
+e:\Source\wpfdemo\PresenterCommands\obj\Debug\PresenterCommands.csproj.GenerateResource.Cache
